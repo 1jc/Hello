@@ -26,5 +26,7 @@
     <string name="email">Email</string>
     <string name="Profile">Profile</string>
     <string name="flower">flower</string>
+    <string name="select_your_date_of_birth">Select your Date of birth</string>
+    <string name="joette_damo_may_11_2020">Joette Damo May 11 2020</string>
 
 </resources>

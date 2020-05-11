@@ -15,7 +15,8 @@
             android:id="@+id/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Profile">
+            android:text="@string/Profile"
+            android:layout_gravity="center">
 
         </TextView>
 
@@ -55,14 +56,14 @@
             android:importantForAutofill="no">
         </EditText>
 
-        <EditText
-            android:id="@+id/enter_dob"
+        <Button
+            android:id="@+id/select_dob"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/enter_dob"
-            android:inputType="textPersonName"
-            android:layout_width="fill_parent"
-            android:importantForAutofill="no">
-        </EditText>
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/select_your_date_of_birth" />
 
         <EditText
             android:id="@+id/enter_description"
@@ -88,13 +89,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/my_image"
-            android:contentDescription="@string/my_image_desc"/>
+            android:contentDescription="@string/my_image_desc"
+            android:layout_gravity="center"/>
 
         <Button
             android:id="@+id/btn_submit"
             android:layout_height="wrap_content"
             android:text="@string/btn_submit"
-
             android:layout_width="fill_parent">
         </Button>
 
@@ -102,9 +103,18 @@
             android:id="@+id/btn_back"
             android:layout_height="wrap_content"
             android:text="@string/btn_back"
-
             android:layout_width="fill_parent">
         </Button>
 
+        <TextView
+            android:id="@+id/joette_damo_may_11_2020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joette_damo_may_11_2020"
+            android:layout_gravity="center">
+
+        </TextView>
+
     </LinearLayout>
 </ScrollView>
+
